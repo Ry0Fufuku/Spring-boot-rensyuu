@@ -40,6 +40,11 @@ public class User {
 	private String address;
 	
 	/*
+	 * 電話番号
+	 */
+	@Column(name = "phone")
+	private String phone;
+	/*
 	 * 更新日時
 	 */
 	@Column(name = "update_date")
