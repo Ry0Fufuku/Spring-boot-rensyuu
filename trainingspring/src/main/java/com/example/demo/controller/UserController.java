@@ -22,7 +22,7 @@ public class UserController {
 	 * ユーザー情報 Service
 	 */
 	@Autowired
-	private UserService userService;
+	UserService userService;
 	
 	/*
 	 * ユーザー情報一覧画面を表示
