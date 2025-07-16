@@ -3,9 +3,8 @@ package com.example.demo.dto;
 import java.io.Serializable;
 
 import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
-
-import org.hibernate.annotations.processing.Pattern;
 
 import lombok.Data;
 
